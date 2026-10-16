@@ -1,0 +1,22 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# frontend
+node_modules/
+dist/
+
+# backend
+target/
+.idea/
+*.iml
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# data
+*.csv
